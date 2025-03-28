@@ -32,7 +32,6 @@ public class ContactService {
      */
     public boolean saveMessageDetails(Contact contact){
         boolean isSaved = true;
-        //TODO - Need to persist the data into the DB table
         log.info(contact.toString());
         return isSaved;
     }
